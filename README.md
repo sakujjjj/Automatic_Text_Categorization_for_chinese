@@ -1,4 +1,13 @@
 # Automatic_Text_Categorization_for_chinese
+### 簡易的中文社群媒體文本分類器  
+
+* 使用jieba中文分詞工具將中文文本轉換成詞向量
+
+* 使用sklearn中的MultinomialNB分類器進行文本分類。
+
+* 訓練數據集中包含12個文本，分別屬於兩個類別（1和0），1表示正面評論，0表示負面評論。
+
+* 最後使用3個新的文本分別為['這家餐廳的服務很好', '餐廳的食物很難吃', '這家餐廳CP值很高']進行預測，並得到預測結果["正面","負面","正面"]。  
 ### 定義訓練數據集  
 ![image](https://user-images.githubusercontent.com/95430501/235434095-a08b210b-e5c1-4fbc-b618-bd2b36be0f98.png)
 
